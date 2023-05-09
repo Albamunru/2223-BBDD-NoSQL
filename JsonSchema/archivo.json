@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://example.com/employee.schema.json",
+    "title": "Animal",
+    "description": " ",
+    "type": "object",
+    "properties": {
+        "IdAnimal": {
+            "type": "string"
+        },
+        "Nombre": {
+            "type": "string"
+        },
+        "Edad": {
+            "type": "number"
+        },
+        "Especie": {
+            "type": "object"
+                    },
+        "PaisOrigen": {
+            "type":"string"
+                }
+                    }
+                }
