@@ -1,1 +1,56 @@
-<mxfile host="Electron" modified="2023-05-08T22:08:38.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/15.4.0 Chrome/91.0.4472.164 Electron/13.5.0 Safari/537.36" etag="0kh4iL4pQFs53et9qqwf" version="15.4.0" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">3ZjbdqIwFIafhsuuxUFRLzm1MuNphLbTy1SishqIA7Fqn34CBBWDivag7Y0r/EI22fv/2AFBMYLlXQRm0y72IBJk0VsKiinIcrMu099EWGVCrVXLhEnke5kkbQTHf4NMFJk69z0YF04kGCPiz4riCIchHJGCBqIIL4qnjTEqRp2BCeQEZwQQrz76HpmyZcmNjd6G/mSaR5bUVvZPAPKT2UriKfDwYktSLEExIoxJNgqWBkRJ7vK8PNqrR9R5Ue9+/Yn/gXv9t9t7uMkmuz3lkvUSIhiSs6d+WmJ7OH6aO+7rIli1A7shgxslm/oVoDnLlxb6AUBsxWSVpzFe+AECIT3S2SUwInC5k+MjNyits0bdBnEASbSi17FZVJZnZrQ6O1xsqiYpTJtuVywXAXPKZD3zOtiQOguEE7qYE6I1SoLJSjEWQARGISBQx/PQi7cLQAdbq9xIaVlOKFGDK5FNf0StZ3e1jiCriN6a/hzR0SQZ9fpdfWjxuuUMLMMu+8PUTF4daLZDo5j0ArE/tO+sHmcJWv7kzCkJ6HpMiQ4B8ichHSM4Tv5JLOJTEjUmB77nJRfrEYz9N/CcTiTS4xn2Q5JmtK4LdTOZaU5wnD1LkoljEuEXaGCEI6qEOPXh2EdoR6pkzf0g7LWmVDSLUmJNqcQtzQPOLNjkVE80OU+0BUMRmpJuu5p7CXjXT8kD9NbL6JXOolcWj4ZrXge+rXJ82xorVVV+XXvQ51VDG2iGnRIsdjML/KXPhQqsVkWqKtOLqU+gMwOjJOKCbiUSzpOsQo9Rfj6czffCWdY3Pg3O/H62m2rH7lo9l5YqqVFL4R+mX4Bo7TgzH4lolXDydTAqSXt6LF82FQSJs8PneJaWqiq+puUYQ3uwPROHcs9lJJu2NrSrQPyNG64kHjRrBajLzKN+GtQyZxGrO+hYmtm/BMv15peyrNaOhxOvhGX+lSZleVOtyjvm8o3xveW4JbM4WodCy5vhZ0ErH3Tlzh4wr/4xl3xeJ67x0CavQW62UzLuOxeBd+fVc522o/CKZ8ErNXbiXXMnVvfQy5Xt4xrvrWW0abMVn5JteX94St8dURvA6LtBXPtenZf/APJgO/Tlqedal6BX3mm961fRY18DDvbe96WI/x6QUrOVp/c1vRyRbMIfD0ij3AAHiChra2cQQQ8335OzZ+rmo7xi/Qc=</diagram></mxfile>
+<mxfile host="Electron" modified="2023-05-09T16:35:49.316Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="1laGIBOT6hApRbIbN4KG" version="21.2.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1548" dy="894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-3" value="ANIMAL" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="50" width="130" height="130" as="geometry">
+            <mxRectangle x="60" y="50" width="70" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-7" value="ID ANIMAL&lt;br&gt;NOMBRE&lt;br&gt;ESPECIE&lt;br&gt;EDAD&lt;br&gt;PAIS DE ORIGEN" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YxoIRfYuSTvwmyHmI72a-3" vertex="1">
+          <mxGeometry x="10" y="30" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-8" value="HÁBITAT" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="50" width="150" height="110" as="geometry">
+            <mxRectangle x="200" y="50" width="80" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-9" value="ID HABITAT&lt;br&gt;NOMBRE&lt;br&gt;TIPO&lt;br&gt;CAPACIDAD MÁXIMA" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="YxoIRfYuSTvwmyHmI72a-8" vertex="1">
+          <mxGeometry x="10" y="20" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-10" value="ALIMENTACIÓN" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="400" y="50" width="150" height="110" as="geometry">
+            <mxRectangle x="400" y="50" width="120" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-11" value="ID ALIMENTACIÓN&amp;nbsp;&lt;br&gt;NOMBRE&lt;br&gt;DESCRIPCIÓN&lt;br&gt;CANTIDAD DIARIA" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YxoIRfYuSTvwmyHmI72a-10" vertex="1">
+          <mxGeometry x="10" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-12" value="EMPLEADO" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="580" y="50" width="150" height="110" as="geometry">
+            <mxRectangle x="640" y="50" width="100" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-13" value="ID EMPLEADO&lt;br&gt;NOMBRE&lt;br&gt;EDAD&lt;br&gt;PUESTO&lt;br&gt;SALARIO" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YxoIRfYuSTvwmyHmI72a-12" vertex="1">
+          <mxGeometry x="10" y="25" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-14" value="ESPECTÁCULO" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="60" y="220" width="150" height="100" as="geometry">
+            <mxRectangle x="170" y="250" width="120" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-16" value="ID ESPECTÁCULO&lt;br&gt;NOMBRE&lt;br&gt;DESCRIPCIÓN&lt;br&gt;FECHA Y HORA" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YxoIRfYuSTvwmyHmI72a-14" vertex="1">
+          <mxGeometry x="5" y="25" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-17" value="VISITANTE" style="swimlane;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="280" y="210" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YxoIRfYuSTvwmyHmI72a-18" value="ID VISITANTE&lt;br&gt;NOMBRE&lt;br&gt;EDAD&lt;br&gt;FECHA VISITA" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YxoIRfYuSTvwmyHmI72a-17" vertex="1">
+          <mxGeometry y="25" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
