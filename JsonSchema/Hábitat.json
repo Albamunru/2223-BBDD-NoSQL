@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Hábitat",
+  "description": "Este documento registra los datos de un Hábitat (lugar donde reside un animal)",
+  "type": "object",
+  "properties": {
+    "Id_Habitat": {
+      "description": "Identificador requerido para cada Hábitat",
+      "type": "string",
+      "minLength": 2
+    },
+    "Nombre": {
+      "description": "Nombre del territorio donde reside el Animal en el zoo",
+      "type": "string"
+    },
+    "Tipo": {
+      "description": "Tipo del terreno en el que reside el Animal",
+      "type": "string"
+    },
+    "Capacidad_Maxima": {
+      "type": "number",
+      "minimum": 50,
+      "maximum": 20000
+    }
+  },
+  "required": [
+    "Id_Habitat",
+    "Capacidad_Maxima"
+  ]
+}
+   

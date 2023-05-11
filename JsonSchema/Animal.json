@@ -13,7 +13,7 @@
       "type": "string"
     },
     "Especie": {
-      "type": "object"
+      "type": "String"
     },
     "Edad": {
       "type": "number",
