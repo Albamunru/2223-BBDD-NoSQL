@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Alimentación",
+  "description": "Este documento registra los datos de la alimentación llevada al hábitat",
+  "type": "object",
+  "properties": {
+    "Id_Alimentacion": {
+      "description": "Identificador requerido para cada alimentación",
+      "type": "string",
+      "minLength": 5
+    },
+    "Nombre": {
+      "description": "Nombre del alimento",
+      "type": "string"
+    },
+    "Descripcion": {
+      "description": "Descripción del alimento",
+      "type": "string",
+      "maxLength": 100
+    },
+    "Cantidad_Diaria": {
+      "description": "Cantidad diaria del alimento",
+      "type": "number",
+      "minimum": 1
+    }
+  }
+}
