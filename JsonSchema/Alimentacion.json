@@ -23,5 +23,9 @@
       "type": "number",
       "minimum": 1
     }
-  }
+  },
+  "required": [
+    "Id_Alimentacion",
+    "Cantidad_Diaria"
+  ]
 }
