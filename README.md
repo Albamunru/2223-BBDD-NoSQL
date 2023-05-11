@@ -1,4 +1,4 @@
-# 2223-BBDD-NoSQL-Raul.D-Alba.M
+# 22/23-BBDD-NoSQL-Raul.D-Alba.M
 **Base de datos NoSql Zoo** <br>
 Gestionaremos una bbdd de un ZOO.<br>
  * **Creacción de las entidades y sus atributos**.<br>
