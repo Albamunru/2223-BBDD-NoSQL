@@ -6,6 +6,13 @@ Gestionaremos una bbdd de un ZOO.<br>
     1.2 Creación del modelo Relacional.<br>
  * **Diseño de JsonSchema.**<br>
      En este apartado crearemos un JsonSchema para la validación de cada una de las colecciones que hemos creado anteriormente.<br>
+     ANIMAL<br>
+     HÁBITAT<br>
+     ALIMENTACIÓN<br>
+     EMPLEADO<br>
+     ESPECTÁCULO<br>
+     ENTRADA<br>
+
  * **Creación del fichero Docker-Compose.**<br>
     En este apartado Crearemos el fichero docker-compose.yml para levantar MongoDB.<br>
     Instrucciones:<br>
