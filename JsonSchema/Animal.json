@@ -1,24 +1,32 @@
 {
-    "$schema": "http://json-schema.org/draft-04/schema#",
-    "$id": "https://example.com/employee.schema.json",
-    "title": "Animal",
-    "description": " ",
-    "type": "object",
-    "properties": {
-        "IdAnimal": {
-            "type": "string"
-        },
-        "Nombre": {
-            "type": "string"
-        },
-        "Edad": {
-            "type": "number"
-        },
-        "Especie": {
-            "type": "object"
-                    },
-        "PaisOrigen": {
-            "type":"string"
-                }
-                    }
-                }
+ "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Animal",
+  "description": "Este documento registra los datos de un Animal",
+  "type": "object",
+  "properties": {
+    "Id_Animal": {
+      "description": "Identificador requerido para cada Animal",
+      "type": "string",
+      "minLength": 2
+    },
+    "Nombre": {
+      "type": "string"
+    },
+    "Especie": {
+      "type": "object"
+    },
+    "Edad": {
+      "type": "number",
+      "maximum": 50
+    },
+    "Pais_Origen": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "Id_Animal",
+    "Nombre"
+  ]
+}
+
+                
