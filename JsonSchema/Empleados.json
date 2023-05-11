@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Empleado",
+    "description": "Este documento registra los datos de un Empleado",
+    "type": "object",
+    "properties": {
+      "Id_Empleado": {
+        "description": "Identificador requerido para cada Empleado",
+        "type": "string",
+        "minLength": 8
+      },
+      "Datos_Empleado": {
+        "type": "object",
+        "properties": {
+          "nombre": {
+            "type": "string"
+          },
+          "apellido": {
+            "type": "string"
+          },
+          "direccion": {
+            "type": "string"
+          },
+          "telefono": {
+            "type": "string"
+          }
+        },
+        "required": ["nombre", "apellido", "direccion", "telefono"]
+      },
+      "Puesto": {
+        "description": "Especialidad en la que trabaja el Empleado",
+        "type": "string",
+        "maxLength": 20
+      },
+      "Salario": {
+        "type": "number",
+        "minimum": 3
+      },
+      "Id_Habitat": {
+        "description": "Identificador del hábitat del Empleado",
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": ["Id_Empleado", "Datos_Empleado", "Puesto", "Salario", "Id_Habitat"]
+  }
+  
