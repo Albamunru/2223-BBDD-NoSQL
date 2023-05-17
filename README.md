@@ -22,4 +22,16 @@ Gestionaremos una bbdd de un ZOO.<br>
     **Cada vez que levantenemos algun contenedor de Docker tenemos que tenemos muy en cuenta los puertos que le asignamos ya que nos pueden dar fallos porque otra cosa lo esté usando y aveces nos resulta muy complicado saber que es y nos puede dar fallos y no conseguir lo que deseamos.**<br>
  * **Vinculacion de JsonSchema con la validación de cada una de las colecciones.**<br>
      Validamos cada una de las colecciones con las restricciones que creamos oportunas, con esto evitaremos que se guarde información no deseada en nuestra base de datos, por ello cada documento que añadamos nuevo va a cumplir con las normas ya establecidas en la validación y si no es así nos dará **ERROR**.<br>
-  
+ * **Crear querys**<br>
+    1. Insertar varios documentos para cada una de las colecciones.
+   Utilizamos desde el entorno gráfico de MongoDB la orden: <br>
+    db.nombreColección.insert([datos de las colecciones]) ---> Insertamos uno o varios documentos a la vez.
+    Cada documento va encerrado entre {} y si es mas de uno debe de ir separados por una (,) de tal manera que quede así: {datos},{datos}.<br>
+    2. Buscar/Filtrar por algo en concreto.
+    Para buscar documentos se utiliza el método find junto a un criterio de búsqueda aquí te muestro varios ejemplos que se pueden hacer: <br>
+    db.nombreColeccion.find({nombre:"Penny"})---> Nos devolverá todos los que se llamen Penny.<br>
+    db.nombreColección.find({edad:{$gt:25}})----> Nos devolvera todos los animales que tengan una edad mayor a 25 años.<br>
+    db.nombreColeccion.find({puesto:"veterinario",salario:1500})----> Nos devolvera todos los empleados que su puesto sea veterinario y su salario 1500€.<br>
+    db.nombreColeccion.find({$or:[{Id_Alimentacion:"pst01"},{Id_Alimentacion:"pst02"}]})----> Nos devuelve la alimentacion con id pst01 o pst02.<br> 
+
+
