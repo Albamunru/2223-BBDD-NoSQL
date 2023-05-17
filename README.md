@@ -40,3 +40,11 @@ Gestionaremos una bbdd de un ZOO.<br>
    4. Eliminar documentos por ID.<br> 
 
 
+                                                       ZZZZZZ   OOOO      OOOO
+                                                          Z    O    O    O    O
+                                                        Z      O    O    O    O
+                                                       Z       O    O    O    O
+                                                       ZZZZZZ   OOOO      OOOO
+
+
+
