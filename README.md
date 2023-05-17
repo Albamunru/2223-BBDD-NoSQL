@@ -1,4 +1,4 @@
-# 22/23-BBDD-NoSQL-Raul.D-Alba.M
+# 22/23-BBDD-NoSQL-Raul.Durán.Crespo-Alba.Muñoz.Rueda
 **Base de datos NoSql Zoo** <br>
 Gestionaremos una bbdd de un ZOO.<br>
  * **Creacción de las entidades y sus atributos.**<br>
@@ -24,7 +24,7 @@ Gestionaremos una bbdd de un ZOO.<br>
      Validamos cada una de las colecciones con las restricciones que creamos oportunas, con esto evitaremos que se guarde información no deseada en nuestra base de datos, por ello cada documento que añadamos nuevo va a cumplir con las normas ya establecidas en la validación y si no es así nos dará **ERROR**.<br>
  * **Crear querys**<br>
     1. Insertar varios documentos para cada una de las colecciones.
-   Utilizamos desde el entorno gráfico de MongoDB la orden: <br>
+    Utilizamos desde el entorno gráfico de MongoDB la orden: <br>
     db.nombreColección.insert([datos de las colecciones]) ---> Insertamos uno o varios documentos a la vez.
     Cada documento va encerrado entre {} y si es mas de uno debe de ir separados por una (,) de tal manera que quede así: {datos},{datos}.<br>
     2. Buscar/Filtrar por algo en concreto.
@@ -33,5 +33,10 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColección.find({edad:{$gt:25}})----> Nos devolvera todos los animales que tengan una edad mayor a 25 años.<br>
     db.nombreColeccion.find({puesto:"veterinario",salario:1500})----> Nos devolvera todos los empleados que su puesto sea veterinario y su salario 1500€.<br>
     db.nombreColeccion.find({$or:[{Id_Alimentacion:"pst01"},{Id_Alimentacion:"pst02"}]})----> Nos devuelve la alimentacion con id pst01 o pst02.<br> 
+    3. Modificacion de documentos por ID.<br>
+    db.nombreColeccion.UpdateOne({nombre:"Penny"},{$set:{edad:28}})---> Nos busca al animal con nombre Penny y le cambia su edad a 28.<br>
+    Tambien se puede modificar un documento embebido:<br>
+    db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
+   4. Eliminar documentos por ID.<br> 
 
 
