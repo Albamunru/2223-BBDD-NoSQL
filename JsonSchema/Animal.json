@@ -25,7 +25,8 @@
   },
   "required": [
     "Id_Animal",
-    "Nombre"
+    "Nombre",
+    "Edad"
   ]
 }
 
