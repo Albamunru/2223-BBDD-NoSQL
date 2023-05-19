@@ -1,0 +1,2 @@
+Los jsonSchema de VisualStudio han tenido que ser modificados para que mongoDb los admita
+por lo cual te paso ambos archivos.

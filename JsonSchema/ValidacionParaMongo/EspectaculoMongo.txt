@@ -1,0 +1,31 @@
+{
+  $jsonSchema: {
+    title: 'Espectáculo',
+    description: 'Este documento registra los datos de un Espectáculo',
+    type: 'object',
+    properties: {
+      Id_Espectaculo: {
+        description: 'Identificador requerido para cada Espectáculo',
+        type: 'string',
+        minLength: 2
+      },
+      Nombre: {
+        type: 'string'
+      },
+      Descripcion: {
+        type: 'string'
+      },
+      Fecha_Hora: {
+        type: 'string'
+      },
+      Aforo_Maximo: {
+        type: 'number'
+      }
+    },
+    required: [
+      'Id_Espectaculo',
+      'Nombre',
+      'Aforo_Maximo'
+    ]
+  }
+}

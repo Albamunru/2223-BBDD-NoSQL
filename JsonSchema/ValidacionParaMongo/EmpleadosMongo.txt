@@ -1,0 +1,52 @@
+{
+  $jsonSchema: {
+    title: 'Empleado',
+    description: 'Este documento registra los datos de un Empleado',
+    type: 'object',
+    properties: {
+      Id_Empleado: {
+        description: 'Identificador requerido para cada Empleado',
+        type: 'string',
+        minLength: 2
+      },
+      Datos_Empleado: {
+        type: 'object',
+        properties: {
+          nombre: {
+            type: 'string'
+          },
+          apellido: {
+            type: 'string'
+          },
+          direccion: {
+            type: 'string'
+          },
+          telefono: {
+            type: 'string'
+          }
+        },
+        required: [
+          'nombre',
+          'apellido',
+          'direccion',
+          'telefono'
+        ]
+      },
+      Puesto: {
+        description: 'Especialidad en la que trabaja el Empleado',
+        type: 'string',
+        maxLength: 50
+      },
+      Salario: {
+        type: 'number',
+        minimum: 3
+      }
+    },
+    required: [
+      'Id_Empleado',
+      'Datos_Empleado',
+      'Puesto',
+      'Salario'
+    ]
+  }
+}

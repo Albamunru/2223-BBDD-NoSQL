@@ -1,0 +1,32 @@
+{
+  $jsonSchema: {
+    title: 'Entrada',
+    description: 'Este documento registra los datos de un Entrada',
+    type: 'object',
+    properties: {
+      Id_Entrada: {
+        description: 'Identificador requerido para cada Entrada',
+        type: 'string',
+        minLength: 7
+      },
+      Datos_Visitante: {
+        type: 'string'
+      },
+      Fecha_Visita: {
+        type: 'string'
+      },
+      Precio: {
+        type: 'number',
+        minLength: 3
+      },
+      Categoria: {
+        type: 'string'
+      }
+    },
+    required: [
+      'Id_Entrada',
+      'Datos_Visitante',
+      'Precio'
+    ]
+  }
+}
