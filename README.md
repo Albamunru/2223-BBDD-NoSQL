@@ -37,7 +37,13 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColeccion.UpdateOne({nombre:"Penny"},{$set:{edad:28}})---> Nos busca al animal con nombre Penny y le cambia su edad a 28.<br>
     Tambien se puede modificar un documento embebido:<br>
     db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
-   4. Eliminar documentos por ID.<br> 
+   4. Eliminar documentos por ID.<br>
+   Hay varas maneras de eliminar registros, aquí se muestran.<br>
+   db.nombreColeccion.deleteOne({_id: 1})--->Elimina solo un registro con este id ya que los id no se repiten.<br>
+   Para eliminar todos los elementos que cumplan una determinada condición o condiciones utilizaremos la siguiente sintaxis:<br>
+   db.nombreColección.deleteMany({edad : {$gte : 50 }})---> Eliminamos todos los documentos que cumplan esta condición.<bt>
+
+
 
 
                                                        ZZZZZZ   OOOO      OOOO
