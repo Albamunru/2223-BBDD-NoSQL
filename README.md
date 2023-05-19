@@ -39,9 +39,22 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
    4. Eliminar documentos por ID.<br>
    Hay varas maneras de eliminar registros, aquí se muestran.<br>
-   db.nombreColeccion.deleteOne({_id: 1})--->Elimina solo un registro con este id ya que los id no se repiten.<br>
+   db.nombreColeccion.deleteOne({_id: 1})--->Elimina solo un registro con este id ya que los id no se repiten. y en este caso los crea MondoDB por defecto en cada documento nuevo que se inserta<br>
    Para eliminar todos los elementos que cumplan una determinada condición o condiciones utilizaremos la siguiente sintaxis:<br>
    db.nombreColección.deleteMany({edad : {$gte : 50 }})---> Eliminamos todos los documentos que cumplan esta condición.<bt>
+ * **Creación de Una Organizacion en Mongo Atlas,Cluster,Usuario y BBDD**
+ Con el siguiente enlace obtenemos acceso a la organización que hemos creado, para conectarse a ella tenemos que tener permiso del administrador que invitara a los participantes en nuestro caso nosotros somos administradores y hemos enviado un correo de invitación al profesor.<br>
+ Nuestra BBDD tiene como nombre ZOO y para acceder tendremos que poner como usuario: **albazoo**,contraseña: **zoo**.
+ Enlace de conexion:
+ mongodb+srv://<usuario>:<contraseña>@cluster0.j3kfe4q.mongodb.net/?retryWrites=true&w=majority <br>
+* **Datos de la BBDD**<br>
+Nuestra base de datos ha sido poblada a través de los siguientes Scrip que se encuentran dentro de la carpeta Querys/PoblarBBDD:
+
+Scrip:
+(https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Querys/PoblarBBDD)
+
+
+
 
 
 
