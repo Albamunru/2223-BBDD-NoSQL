@@ -35,13 +35,10 @@
       "Salario": {
         "type": "number",
         "minimum": 3
-      },
-      "Id_Habitat": {
-        "description": "Identificador del hábitat del Empleado",
-        "type": "string",
-        "minLength": 1
       }
+      
+      
     },
-    "required": ["Id_Empleado", "Datos_Empleado", "Puesto", "Salario", "Id_Habitat"]
+    "required": ["Id_Empleado", "Datos_Empleado", "Puesto", "Salario"]
   }
   
