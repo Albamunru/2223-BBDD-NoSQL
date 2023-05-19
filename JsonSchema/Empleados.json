@@ -7,7 +7,7 @@
       "Id_Empleado": {
         "description": "Identificador requerido para cada Empleado",
         "type": "string",
-        "minLength": 8
+        "minLength": 2
       },
       "Datos_Empleado": {
         "type": "object",
@@ -30,7 +30,7 @@
       "Puesto": {
         "description": "Especialidad en la que trabaja el Empleado",
         "type": "string",
-        "maxLength": 20
+        "maxLength": 50
       },
       "Salario": {
         "type": "number",
