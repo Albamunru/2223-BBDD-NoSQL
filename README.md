@@ -4,7 +4,7 @@ Gestionaremos una bbdd de un ZOO.<br>
  * **Creacción de las entidades y sus atributos.**<br>
     1.1 Creación del modelo Entidad-Relación.<br>
     1.2 Creación del modelo Relacional.<br>
-    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Modelo)
+    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Modelo)<br>
     Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/ImagenesModelo)
  * **Diseño de JsonSchema.**<br>
      En este apartado crearemos un JsonSchema para la validación de cada una de las colecciones que hemos creado anteriormente.<br>
@@ -27,7 +27,7 @@ Gestionaremos una bbdd de un ZOO.<br>
     Link (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/FicheroDockerMongo)
  * **Vinculacion de JsonSchema con la validación de cada una de las colecciones.**<br>
      Validamos cada una de las colecciones con las restricciones que creamos oportunas, con esto evitaremos que se guarde información no deseada en nuestra base de datos, por ello cada documento que añadamos nuevo va a cumplir con las normas ya establecidas en la validación y si no es así nos dará **ERROR**.<br>
-     Link Json: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/JsonSchema)
+     Link Json: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/JsonSchema)<br>
      Link Validacion en MongoDB: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/JsonSchema/ValidacionParaMongo)
  * **Crear querys**<br>
     1. Insertar varios documentos para cada una de las colecciones.
