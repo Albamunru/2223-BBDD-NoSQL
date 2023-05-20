@@ -43,10 +43,11 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColeccion.find({puesto:"veterinario",salario:1500})----> Nos devolvera todos los empleados que su puesto sea veterinario y su salario 1500€.<br>
     db.nombreColeccion.find({$or:[{Id_Alimentacion:"pst01"},{Id_Alimentacion:"pst02"}]})----> Nos devuelve la alimentacion con id pst01 o pst02.<br> 
     Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Querys/Consultas)
-    3. Modificacion de documentos por ID.<br>
+    3. Modificacion de documentos por ID y filtros.<br>
     db.nombreColeccion.UpdateOne({nombre:"Penny"},{$set:{edad:28}})---> Nos busca al animal con nombre Penny y le cambia su edad a 28.<br>
     Tambien se puede modificar un documento embebido:<br>
     db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
+    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/blob/main/Querys/Consultas/Eliminaciones.js)<br>
    4. Eliminar documentos por ID.<br>
    Hay varas maneras de eliminar registros, aquí se muestran.<br>
    db.nombreColeccion.deleteOne({_id: 1})--->Elimina solo un registro con este id ya que los id no se repiten. y en este caso los crea MondoDB por defecto en cada documento nuevo que se inserta<br>
