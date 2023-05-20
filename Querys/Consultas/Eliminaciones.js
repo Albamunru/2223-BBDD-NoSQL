@@ -47,3 +47,12 @@ console.log("\nBorramos un veterinario (El primero que encuentre)\n");
 console.log(`${borrarVeterinario.deletedCount} veterinario borrado`);
 
 console.log("\n___________________________________________");
+
+// Realizamos consultas de filtro
+const borrarEmpleado = db.getCollection("Empleados").deleteOne({ _id: ObjectId("6467a55f7593908880b5beb7") })
+
+console.log("\nBorramos al empleado con un id específico\n");
+// Mostramos la colección
+console.log(`${borrarEmpleado.deletedCount} empleado borrado`);
+
+console.log("\n___________________________________________");
