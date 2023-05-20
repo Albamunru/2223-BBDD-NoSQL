@@ -47,12 +47,13 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColeccion.UpdateOne({nombre:"Penny"},{$set:{edad:28}})---> Nos busca al animal con nombre Penny y le cambia su edad a 28.<br>
     Tambien se puede modificar un documento embebido:<br>
     db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
-    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/blob/main/Querys/Consultas/Eliminaciones.js)<br>
+    
    4. Eliminar documentos por ID.<br>
    Hay varas maneras de eliminar registros, aquí se muestran.<br>
    db.nombreColeccion.deleteOne({_id: 1})--->Elimina solo un registro con este id ya que los id no se repiten. y en este caso los crea MondoDB por defecto en cada documento nuevo que se inserta<br>
    Para eliminar todos los elementos que cumplan una determinada condición o condiciones utilizaremos la siguiente sintaxis:<br>
    db.nombreColección.deleteMany({edad : {$gte : 50 }})---> Eliminamos todos los documentos que cumplan esta condición.<bt>
+   Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/blob/main/Querys/Consultas/Eliminaciones.js)<br>
  * **Creación de Una Organizacion en Mongo Atlas,Cluster,Usuario y BBDD**
  Con el siguiente enlace obtenemos acceso a la organización que hemos creado, para conectarse a ella tenemos que tener permiso del administrador que invitara a los participantes en nuestro caso nosotros somos administradores y hemos enviado un correo de invitación al profesor.<br>
  Nuestra BBDD tiene como nombre ZOO y para acceder tendremos que poner como usuario: **albazoo**,contraseña: **zoo**.
