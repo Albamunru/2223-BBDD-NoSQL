@@ -4,8 +4,8 @@ Gestionaremos una bbdd de un ZOO.<br>
  * **Creacción de las entidades y sus atributos.**<br>
     1.1 Creación del modelo Entidad-Relación.<br>
     1.2 Creación del modelo Relacional.<br>
-    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Modelo)<br>
-    Link: (https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/ImagenesModelo)
+    Link: https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/Modelo<br>
+    Link: https://github.com/Albamunru/2223-BBDD-NoSQL/tree/main/ImagenesModelo
  * **Diseño de JsonSchema.**<br>
      En este apartado crearemos un JsonSchema para la validación de cada una de las colecciones que hemos creado anteriormente.<br>
      ANIMAL<br>
