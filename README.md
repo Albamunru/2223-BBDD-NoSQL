@@ -47,6 +47,7 @@ Gestionaremos una bbdd de un ZOO.<br>
     db.nombreColeccion.UpdateOne({nombre:"Penny"},{$set:{edad:28}})---> Nos busca al animal con nombre Penny y le cambia su edad a 28.<br>
     Tambien se puede modificar un documento embebido:<br>
     db.nombreColeccion.Update({ Id_Empleado:"12vt"},{$set:{Datos_Personales:{nombre:"Juanito,apellido:"Circus","direccion:"madagascar 37 EEUU",telefono:"911256874"}}})---> Cambiaremos los datos personales del empleado con el id 12vt.<br>
+    Link: https://github.com/Albamunru/2223-BBDD-NoSQL/blob/main/Querys/Consultas/Modificaciones.js
     
    4. Eliminar documentos por ID.<br>
    Hay varas maneras de eliminar registros, aquí se muestran.<br>
