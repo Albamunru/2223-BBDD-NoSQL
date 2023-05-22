@@ -1,6 +1,6 @@
 # 22/23-BBDD-NoSQL-Raul.Durán.Crespo-Alba.Muñoz.Rueda
 **Base de datos NoSql Zoo** <br>
-Gestionaremos una bbdd de un ZOO.<br>
+Gestionaremos una Base de Datos de un ZOO.<br>
  * **Creacción de las entidades y sus atributos.**<br>
     1.1 Creación del modelo Entidad-Relación.<br>
     1.2 Creación del modelo Relacional.<br>
