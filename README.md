@@ -58,6 +58,8 @@ Gestionaremos una bbdd de un ZOO.<br>
  * **Creación de Una Organizacion en Mongo Atlas,Cluster,Usuario y BBDD**
  Con el siguiente enlace obtenemos acceso a la organización que hemos creado, para conectarse a ella tenemos que tener permiso del administrador que invitara a los participantes en nuestro caso nosotros somos administradores y hemos enviado un correo de invitación al profesor.<br>
  Nuestra BBDD tiene como nombre ZOO y para acceder tendremos que poner como usuario: **albazoo**,contraseña: **zoo**.
+ Este usuario y contraseña es solo para los Administradores de la BBDD los cuales tienen todos los permisos sobre esa BBDD.<br>
+ Hemos creado otro usuario solo con permiso de lectura y escritura que tiene como usuario: **jssdocente**, contraseña: **p@ssw0rd**.<br>
  Enlace de conexion:
  mongodb+srv://**usuario**:**contraseña**@cluster0.j3kfe4q.mongodb.net/?retryWrites=true&w=majority <br>
 * **Datos de la BBDD**<br>
